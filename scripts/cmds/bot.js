@@ -161,7 +161,7 @@ module.exports.onChat = async ({
         const body = event.body ? event.body?.toLowerCase() : ""
         if (body.startsWith("baby") || body.startsWith("bby") || body.startsWith("বেবি") || body.startsWith("bot") || body.startsWith("nisan") || body.startsWith("babu") || body.startsWith("বট")) {
             const arr = body.replace(/^\S+\s*/, "")
-            const randomReplies = ["😚", "𝙃𝙤𝙥 𝙗𝙚𝙙𝙖😾, 𝘽𝙤𝙨𝙨 বল 𝙗𝙤𝙨𝙨😼", "𝙒𝙝𝙖𝙩'𝙨 𝙪𝙥?", "বলো কি বলবা, সবার সামনে বলবা নাকি?🤭🤏", "𝙣𝙖𝙬 𝙢𝙮 𝙤𝙬𝙣𝙚𝙧 𝙢𝙚𝙨𝙨𝙖𝙜𝙚 𝙙𝙖𝙬 //m.me/nisan.005", "আমাকে ডাকলে, আমি কিন্তূ কিস করে দেবো😘", "𝘽𝘼𝘽𝙐 𝙆𝙃𝙐𝘿𝘼 𝙇𝘼𝙂𝙎𝙀🥺"];
+            const randomReplies = ["Love you from Maruf boss❤️‍🩹😴", "Boss Maruf ar inbox a jaya chuma daw😙🙂", "Tor gf ki Maruf ke dibi?😒🙄", "Maruf boss ke chuma dile 20 Taka.🤭😁", " 𝙢𝙮 𝙤𝙬𝙣𝙚𝙧 𝙢𝙚𝙨𝙨𝙖𝙜𝙚 𝙙𝙖𝙬 ", "Ato bot bot na kore boss Maruf ke gf de", "Maruf boss bokche gf di nai bole.🥹🥺"];
             if (!arr) {
 
                 await api.sendMessage(randomReplies[Math.floor(Math.random() * randomReplies.length)], event.threadID, (error, info) => {
