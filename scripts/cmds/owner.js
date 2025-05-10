@@ -16,12 +16,12 @@ module.exports = {
 		envConfig: {}
 	},
 	onStart: async function ({ message }) {
-		const authorName = " ⩸_ 𝙽𝙸 𝚂 𝙰𝙽 _⩸ ";
-		const ownAge = "『 ⩸_ 20 _⩸ 』";
-		const messenger = " //m.me/nisan.005";
-		const authorFB = " //www.facebook.com/profile.php?id=61576178781718";
-		const authorNumber = "017××××××98";
-		const Status = "⩸__ 𝚁𝙻𝚂 𝚆𝙷𝙸𝚃 𝙵𝙰𝚁𝙸𝚈𝙰__⩸";
+		const authorName = " ";
+		const ownAge = "『 ⩸_ 17± _⩸ 』";
+		const messenger = " Kono gc nai🐸🙂";
+		const authorFB = "Nai🌚";
+		const authorNumber = "016××××××33";
+		const Status = "Jene ki korbi";
 		const urls = [
 "https://drive.google.com/uc?id=1a72QhBuup4I3IcYhDblJBe1D__fyIh4k",
 "https://drive.google.com/uc?id=1WPeoXpdO7OZ1y9NiyGgYdwsQawV21Oju"
