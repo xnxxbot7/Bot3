@@ -1,5 +1,3 @@
-..        <img src="https://img.shields.io/badge/-NisanChatBot-Blue.svg?style=flat-square">
-
 #          💦🌚Welcome 
 
 # This GoatBot-v2.
