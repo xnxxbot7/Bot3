@@ -87,11 +87,11 @@ module.exports = {
 
 					// Get addedBy name
 					const addedByID = event.logMessageData?.author || null;
-					let addedByName = "{AddedByName}";
+					let addedByName = "Facebookuser";
 					if (addedByID) {
 						try {
 							const info = await api.getUserInfo(addedByID);
-							addedByName = info[addedByID]?.name || [threadID].dataAddedParticipants.push(...dataAddedParticipants).name;
+							addedByName = info[addedByID]?.name || "Facebookuser";
 						} catch (e) {
 							console.error("Failed to fetch addedBy user info:", e);
 						}
