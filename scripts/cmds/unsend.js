@@ -1,6 +1,7 @@
 module.exports = {
 	config: {
 		name: "unsend",
+		aliases: ["rmv", "u", "uns"],
 		version: "1.2",
 		author: "NTKhang",
 		countDown: 5,
