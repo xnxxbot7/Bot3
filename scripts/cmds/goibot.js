@@ -182,7 +182,7 @@ config: {
    };
 
   if ((event.body.toLowerCase() == "bro")) {
-     return api.sendMessage("️But I Am Girl, You Can Call Me Maya", threadID, messageID);
+     return api.sendMessage("️But I Am Girl, You Can Call Me Bby", threadID, messageID);
    };
 
   if ((event.body.toLowerCase() == "boy")) {
