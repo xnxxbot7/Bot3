@@ -30,23 +30,23 @@ react.includes("cuda") ||
 react.includes("cudi") ||
 react.includes("mgi") ||
 react.includes("nodi") || 
-react.includes("নডি") ||
+react.includes("bc") ||
 react.includes("মাগি") ||
 react.includes("মাদারচুদ") ||
-react.includes("বাল") ||
-react.includes("চুদা") ||
-react.includes("bal") || 
-react.includes("madari") ||
 react.includes("মাদারি") ||
-react.includes("xudir") ||
+react.includes("চুদা") ||
+react.includes("চুদি") || 
+react.includes("madari") ||
+react.includes("ষুদি") ||
+react.includes("bal") ||
 react.includes("খাংকির পোলা") ||
 react.includes("বোকাচোদা") ||
-react.includes("bc") || 
+react.includes("খানকি মাগি") || 
 react.includes("SawYa") || 
-react.includes("কুত্তা") || 
-react.includes("tor mare chudi") || react.includes("vuda") || react.includes("heda") || react.includes("bap")) {
+react.includes("বাল") || 
+react.includes("tor mare xudi") || react.includes("vuda") || react.includes("heda") || react.includes("bap")) {
 		var msg = {
-				body: "╰┈➤ এখানে গালা গালি করবি না সৌরভ ভাই কে ডাক দিমু কিন্তু😾😾..!!😾\n\n𝐎𝐖𝐍𝐄𝐑: 𝗦𝗢𝗨𝗥𝗔𝗩 😾"
+				body: "╰┈➤ এখানে গালা গালি করবি না সৌরভ ভাই কে ডাক দিমু কিন্তু...!!😾😾😾\n\n𝐎𝐖𝐍𝐄𝐑: 𝗦𝗢𝗨𝗥𝗔𝗩 😾"
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😾", event.messageID, (err) => {}, true)
@@ -54,4 +54,4 @@ react.includes("tor mare chudi") || react.includes("vuda") || react.includes("he
 	}
 	module.exports.onStart = function({ api, event, client, __GLOBAL }) {
 
-  }
+	   }
